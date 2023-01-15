@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form Update</h1>
+    <form action="http://localhost:8080/home" class="formsElem" method="get">
+        <div class="container">
+        </div>
+        <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+                <input type="checkbox" class="newField1" id="id1">
+                <label for="id1">Date Field</label><br>
+                <input type="checkbox" class="newField2" id="id2">
+                <label for="id2">Time Field</label><br>
+                <input type="checkbox" class="newField3" id="id3">
+                <label for="id3">email Field</label><br>
+                <input type="checkbox" class="newField4" id="id4">
+                <label for="id4">Text Field</label><br>
+                <!-- <input type="checkbox" class="newField5" id="id5">
+                <label for="id5">File Field</label><br> -->
+                <input type="checkbox" class="newField6" id="id6">
+                <label for="id6">Password Field</label><br>
+                <input type="checkbox" class="newField7" id="id7">
+                <label for="id7">Number Field</label><br>
+                <input type="checkbox" class="newField8" id="id8">
+                <label for="id8">Option Field</label><br>
+            </div>
+        </div>
+    </form>
+    <input type="button" class="submited" value="submit" /><br><br>
+    <button onclick="myFunction()" class="dropbtn">select your input field</button>
+    <button onclick="test()">Test</button>
+    <h1 class="renderForm">render form <br></h1>
+    <script src="javascript.js"></script>
+</body>
+</html>
